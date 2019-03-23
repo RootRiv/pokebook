@@ -1,0 +1,36 @@
+{
+  "name": "react-ts-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@types/moment": "^2.13.0",
+    "@types/react-big-calendar": "^0.20.7",
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.3",
+    "react-big-calendar": "^0.20.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "3.1.0",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.14",
+    "@types/node": "^10.12.29",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-router-dom": "^4.3.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3333"
+  }
+}
