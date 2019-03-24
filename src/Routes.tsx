@@ -11,10 +11,11 @@ export class Routes extends React.Component {
   public render() {
     return (
       <div>
-        <Header color="textPrimary" type="h5"/>
+        <Header color="textPrimary" type="h5" />
         <h1>Route sample</h1>
         <Switch>
           <Route exact={true} path="/" component={PokeBook} />
+          <Route exact={true} path="/pokebook" component={PokeBook} />
           <Route exact={true} path="/app" component={App} />
           <Route exact={true} path="/form" component={Submit} />
         </Switch>

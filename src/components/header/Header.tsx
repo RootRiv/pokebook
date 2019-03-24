@@ -49,7 +49,7 @@ const Header: React.FC<headerProps> = ({ type, color, classes }) => {
     <div className={classes.list}>
       <List>
         {
-          ['app', 'form'].map((text, index) => (
+          ['app', 'form', 'pokebook'].map((text, index) => (
             <ListItem button key={text} >
               <Link to={`/${text}`}>
                 <ListItemText primary={text} />

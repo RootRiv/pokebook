@@ -9,9 +9,11 @@ import Typography from '@material-ui/core/Typography';
 const styles = () => {
   return {
     card: {
-      maxWidth: 100,
+      width: 150,
     },
     media: {
+      width: 100,
+      margin: 'auto'
     },
   };
 };
@@ -34,7 +36,7 @@ const PokeCard: React.SFC<pokeCardProps> = ({ mediaSrc, pokeName, classes }) => 
           image={mediaSrc}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h6" component="h2">
             {pokeName}
           </Typography>
         </CardContent>
