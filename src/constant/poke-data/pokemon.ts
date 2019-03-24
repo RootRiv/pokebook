@@ -549,7 +549,7 @@ export const pokeData = [
     {
       "id": 29,
       "name": {
-        "english": "Nidoran♀",
+        "english": "Nidoran",
         "japanese": "ニドラン♀",
         "chinese": "尼多兰"
       },
@@ -607,7 +607,7 @@ export const pokeData = [
     {
       "id": 32,
       "name": {
-        "english": "Nidoran♂",
+        "english": "Nidoran",
         "japanese": "ニドラン♂",
         "chinese": "尼多朗"
       },
@@ -1601,7 +1601,7 @@ export const pokeData = [
     {
       "id": 83,
       "name": {
-        "english": "Farfetch'd",
+        "english": "Farfetchd",
         "japanese": "カモネギ",
         "chinese": "大葱鸭"
       },
@@ -12524,7 +12524,7 @@ export const pokeData = [
     {
       "id": 644,
       "name": {
-        "english": "Zekrom ",
+        "english": "Zekrom",
         "japanese": "ゼクロム",
         "chinese": "捷克罗姆"
       },
@@ -13015,7 +13015,7 @@ export const pokeData = [
     {
       "id": 669,
       "name": {
-        "english": "Flabébé",
+        "english": "Flabebe",
         "japanese": "フラベベ",
         "chinese": "花蓓蓓"
       },
