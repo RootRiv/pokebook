@@ -3,6 +3,7 @@ import TextField from '@material-ui/core/TextField';
 
 interface FormProps {
   label: string;
+
 }
 
 export interface FormState {
@@ -35,8 +36,8 @@ class Form extends React.Component<FormProps, FormState> {
           margin="normal"
           variant="outlined"
         />
-        <br/>
-        { this.state.name }
+        <br />
+        {this.state.name}
       </div>
     );
   }
